@@ -1,6 +1,7 @@
 ## Androide
 
 #### P1. Para agregar características, componentes y permisos a tu aplicación de Android, ¿qué archivo debe editarse?
+Android uygulamasındaki özellikleri, bileşenleri ve izinleri bir araya getirmek için, düzenlemek için arşivlemeye ne dersiniz?
 
 - [x] AndroidManifest.xml
 - [ ] Componentes.xml
@@ -8,6 +9,7 @@
 - [ ] ComponentManifest.xml
 
 #### P2. ¿Qué atributo XML se debe utilizar para que una vista de imagen sea accesible?
+XML'e atıf yapmak, erişilebilir bir deniz manzarası için nasıl kullanılır?
 
 - [ ] android:talkBack
 - [ ] androide:labelFor
@@ -15,6 +17,7 @@
 - [x] android:contentDescription
 
 #### P3. Inicias tu aplicación y cuando navegas a una nueva pantalla se bloquea, ¿qué acción NO te ayudará a diagnosticar el problema?
+Uygulamayı başlatma ve başlatma, yeni bir engel oluşturmanıza neden olabilir, bu nedenle, soruna tanı koymak için YOKTUR?
 
 - [ ] Establezca puntos de interrupción y, a continuación, recorra el código línea por línea
 - [ ] Utilice las herramientas de generador de perfiles en Android Studio para detectar anomalías en la CPU y el uso de la red.
@@ -22,6 +25,7 @@
 - [ ] inspeccionar los registros en Logcat.
 
 #### P4. ¿Por qué las notificaciones push podrían dejar de funcionar?
+Belirtilen bildirimlerin işlevi devre dışı bırakmak için ne yapması gerekiyor?
 
 - [x] todas estas respuestas
 - [ ] El token del dispositivo no se está enviando correctamente al proveedor de inserción.
@@ -29,6 +33,7 @@
 - [ ] La optimización de la batería está activada en el dispositivo.
 
 #### P5. ¿Cuál es el conjunto correcto de clases de componentes necesarias para implementar una RecyclerView de elementos que muestra una lista de widgets verticalmente?
+RecyclerView'ı uygulamak için gerekli bileşen sınıflarını düzeltmek için doğru bir konjonktür var mı?
 
 - [ ]
 
@@ -67,6 +72,7 @@
 ```
 
 #### P6. El sistema Android mata el proceso cuando necesita liberar memoria. La probabilidad de que el sistema mate un proceso dado depende del estado del proceso y de la actividad en ese momento. ¿Con la combinación de proceso y estado de actividad es más probable que sea asesinado?
+Android sistemi, hafızayı kurtarmak için gereken işlemleri başlatır. Sistemin bir süreçle eşleşme olasılığı, sürecin ve etkinliğin o anki durumuna bağlıdır. ¿Süreç ve etkinlik durumu kombinasyonu, muhtemelen daha da kötüleşecektir?
 
 - [x] Proceso: En segundo plano; Actividad:Está detenida
 - [ ] Proceso:En segundo plano; Actividad:Está en pausa
